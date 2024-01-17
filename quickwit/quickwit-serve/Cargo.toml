@@ -24,6 +24,9 @@ http-serde = { workspace = true }
 hyper = { workspace = true }
 itertools = { workspace = true }
 mime_guess = { workspace = true }
+brotli = { workspace = true }
+flate2 = { workspace = true }
+zstd = { workspace = true }
 num_cpus = { workspace = true }
 once_cell = { workspace = true }
 percent-encoding = { workspace = true }
@@ -34,7 +37,7 @@ rust-embed = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
 serde_qs = { workspace = true }
-serde_with = { workspace =  true }
+serde_with = { workspace = true }
 termcolor = { workspace = true }
 thiserror = { workspace = true }
 tokio = { workspace = true }
